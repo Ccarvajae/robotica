@@ -16,8 +16,8 @@
   <widget class="QPushButton" name="button">
    <property name="geometry">
     <rect>
-     <x>80</x>
-     <y>180</y>
+     <x>30</x>
+     <y>140</y>
      <width>251</width>
      <height>71</height>
     </rect>
@@ -29,11 +29,24 @@
   <widget class="QLCDNumber" name="lcdNumber">
    <property name="geometry">
     <rect>
-     <x>50</x>
-     <y>40</y>
-     <width>301</width>
+     <x>20</x>
+     <y>30</y>
+     <width>261</width>
      <height>91</height>
     </rect>
+   </property>
+  </widget>
+  <widget class="QSlider" name="verticalSlider">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>40</y>
+     <width>29</width>
+     <height>160</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
    </property>
   </widget>
  </widget>
